@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: $primary-color;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-right: 10px;
@@ -17,23 +17,28 @@ p {
 }
 
 h2 {
-  color: #B695C0;
+  color: $tipografia-color;
   font-weight: lighter;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-right: 15px;
 }
 
-img {
+img{
+
   border-radius: 25px;
- 
-  width: fit-content;
+   width:100%;
+   padding:5px;
+} 
+
+.logo{
+
+  border-radius:50%;
+  height: 50px;
+  width: 150px;
 
 }
 
 
-.logo {
-  border-radius: 50%;
-  align-items: center;
-  height: 150x;
-}
+
+
 

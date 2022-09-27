@@ -1,0 +1,13 @@
+.boton{
+	height: 100px;
+	background-color: $button-color;
+	text-align:center;
+	color:beige;
+	border-radius:20px;
+	border:1px
+}
+
+.boton__continuar{
+	@extend.boton;
+	background-color:green;
+}

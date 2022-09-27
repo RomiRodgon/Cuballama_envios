@@ -1,16 +1,38 @@
 header {
-     background-color: $primary-color;
-
-nav ul li {
-     padding: 15px;
-     text-decoration: bold;
-
-     @media only screen and (min-width:1024px) {
-         nav ul li{font-size: 22px;
-               display: inline-block;
-               position: sticky;}
-          }
-     }
-}
+     background-color: $secondary-color;
      
+
+}
+ 
+
+nav ul {
+
+     list-style-type:none;
+     display: inline-block;
+     display: flex;
+     flex-direction: column;
+     background-color: $menu-color;
+     border-style:solid; width:auto; height: auto; color: beige;
+     align-items: stretch;
+     
+
+     @media only screen and (min-width:768px){
+          display: inline-block;
+         display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+
+     }
+
+li { &hover{color:$hoove-color;}
+     
+
+ 
+}
+}
+
+
+
+
      
