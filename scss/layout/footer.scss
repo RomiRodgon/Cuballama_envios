@@ -1,16 +1,6 @@
-footer { 
-    font-weight: bold;
-    font-size:16px;
-    color: beige;
-    background-image: url(../Assets/fondofooter.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; 
-    background-color: black;
+footer{ color:$footer-color;
 
-
-    @media only screen and (min-width:1024px){
-    footer{font-size:20px;}
-}
+p{color: $tipografia-color_3}
+   
 }
 

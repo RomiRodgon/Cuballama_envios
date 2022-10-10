@@ -1,19 +1,56 @@
-main {
-  background-color: #fcb879; }
+.section_cards-productos {
+  background: #F0BBF5; }
+
+h1 {
+  color: #442b8e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+p {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #442b8e; }
+  @media only screen and (min-width: 1024px) {
+    p p {
+      font-size: 20px; } }
+
+footer p {
+  color: #F4EAF5; }
+
+h2 {
+  color: #442b8e;
+  font-weight: lighter;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 15px; }
+
+h1 {
+  color: #442b8e;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+p {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #442b8e; }
+  @media only screen and (min-width: 1024px) {
+    p p {
+      font-size: 20px; } }
+
+h2 {
+  color: #442b8e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 15px; }
 
 header {
-  background-color: #14A3F9; }
+  background-color: #F4EAF5; }
 
 nav ul {
   list-style-type: none;
   display: inline-block;
   display: flex;
   flex-direction: column;
-  background-color: #E17633;
-  border-style: solid;
+  background-color: #FC9286;
   width: auto;
   height: auto;
-  color: beige;
   align-items: stretch; }
   @media only screen and (min-width: 768px) {
     nav ul {
@@ -21,80 +58,23 @@ nav ul {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      align-items: center; } }
+      width: 100%;
+      height: 30px; } }
   nav ul lihover {
-    color: green; }
+    color: gray; }
 
 footer {
-  font-weight: bold;
-  font-size: 16px;
-  margin: 24px;
-  padding: 23px;
-  color: beige;
-  background-image: url(../Assets/fondofooter.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-  @media only screen and (min-width: 1024px) {
-    footer footer {
-      font-size: 20px; } }
+  color: #FC9286; }
+  footer p {
+    color: gray; }
 
-.productos {
-  margin: 15px;
-  padding: 15px;
-  background-color: cornflowerblue;
-  font-size: 20px;
-  border-style: dotted;
-  width: auto;
-  height: auto; }
-
-.section_servicios {
-  background-color: #f8d8dd;
-  position: 50px; }
-
-.section_contacto {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 24px;
-  display: inline-block;
-  position: sticky; }
-
-h1 {
-  color: #f71735;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-right: 10px; }
-
-p {
-  font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  @media only screen and (min-width: 1024px) {
-    p p {
-      font-size: 20px; } }
-
-h2 {
-  color: #444449;
-  font-weight: lighter;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-right: 15px; }
-
-img {
-  border-radius: 25px;
-  width: 100%;
-  padding: 5px; }
-
-.logo {
-  border-radius: 50%;
-  height: 50px;
-  width: 150px; }
-
-.boton, .boton__continuar {
+.boton, .boton__contacto {
   height: 100px;
-  background-color: #0DC7EC;
+  background-color: #3503C9;
   text-align: center;
   color: beige;
   border-radius: 20px;
   border: 1px; }
 
-.boton__continuar {
-  background-color: green; }
+.boton__contacto {
+  background-color: #E68774; }
