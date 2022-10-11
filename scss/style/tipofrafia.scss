@@ -1,0 +1,77 @@
+//style titulos h///
+
+
+@mixin colorsh ($color){
+    color: $primary-color;
+}
+
+h1{ @include colorsh ($primary-color);
+}
+h2{ @include colorsh ($primary-color);
+}
+h3{ @include colorsh ($primary-color);
+}
+h4{ @include colorsh ($primary-color);
+}
+h5{@include colorsh ($color_paqueteria);
+}
+h6{@include colorsh ($primary-color);
+}
+
+
+  //variacion de tamaño de letra//
+
+  $font-size_xs:16px;
+  $font-size_s:20px;
+  $font-size_m:24px;
+  $font-size_l:28px;
+  $font-size_xl:32px;
+
+
+
+  
+  p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: $tipografia-color;
+} 
+
+
+@mixin desktop (){ 
+  @media screen and (min-width:1024px){ @content; }
+  
+}
+
+
+p {
+ 
+  font-size: $font-size_s;
+
+  @include desktop(){ font-size: $font-size_m;}
+}
+
+
+nav {
+ 
+  font-size: $font-size_xs;
+
+  @include desktop(){ font-size: $font-size_s;}
+}
+
+h1 {
+ 
+  font-size: $font-size_m;
+
+  @include desktop(){ font-size: $font-size_xl;}
+}
+
+
+    
+
+
+
+
+
+
+      
+      
+    

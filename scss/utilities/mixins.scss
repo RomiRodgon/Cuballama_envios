@@ -1,9 +1,0 @@
-@mixin main{
-    background-color: $background-color;
-}
-
-.section_cards{
-    @include main_color
-}
-
-

@@ -1,14 +1,18 @@
 .boton{
-	height: 100px;
 	background-color: $button-color;
 	text-align:center;
 	color:beige;
 	border-radius:20px;
-	border:1px
+	border:1px;
+	margin:20px;
+	display: block;
+	width: 50%;
+	height: auto;
+	 
 }
 
 .boton__contacto{
-	@extend.boton ;
+	@extend.boton;
 	background-color: $button_2
 }
 

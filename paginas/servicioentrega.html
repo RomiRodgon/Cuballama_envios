@@ -19,132 +19,235 @@
 </head>
 
 <body>
-  <header>
 
 
-    <div class="d-flex flex-row mb-3">
+    <header>
+      <section>
+  
+  
+        <div class="container-fluid">
+  
+      
+    <!--header, logo y barra de buscar --->
 
-      <div class="p-2"> <img class="img-fluid" src="../Assets/logo.jpg" alt="Logo de Cuballama" style: height="90px" ;
-          width="150px"> </div>
-      <div class="p-2"> <img src="../Assets/person-fill.svg" alt="Mi cuenta" style: height="30px">
-        <p> Mi cuenta </p>
-      </div>
-      <div class="p-2"> <img src="../Assets/cart.svg" alt="Carrito" style: height="30px">
-        <p> Mi carrito </p>
-      </div>
-    </div>
+  
+          <nav class="navbar navbar-light bg-light justify-content-end align-content-end">
+       
+            <a class="navbar-brand"> <img class="img-fluid" src="../Assets/logo.jpg" alt="Logo de Cuballama" a href="../index.html" style="border-radius:50%"> </a>
+         
+            <form class="form-inline">
+              <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
+            
+            </form>
+  
+          
+              <img src="../Assets/cart.svg" alt="lugar donde se ve lo que han ido agregando al carrito" style: height="30px">
+  
+              <img src="../Assets/person-fill.svg" alt="mi cuenta" style: height="30px">
+            </nav>
+            </div>
+  
+      
+  
+  
+  
+  
+      </section>
+  
+  
+      <nav class="navbar navbar-expand-lg bg-#F28773">
+  
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
+            <!--menu navegacion-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-
-    <nav>
-      <ul>
-        <li><a href="../index.html">home </a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="info.html">productos</a></li>
-        <li><a href="formulario.html">formulario de envio a Cuba</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html ">Home</a>
+              </li>
+            </ul>
+  
+        
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="servicioentrega.html">Envio de paquetería</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ayuda.html">Ayuda</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+  
+          </div>
+  
+      </nav>
+      </section>
+  
+    </header>
 
 
   <main>
-    <h1> 
+    <h1>
       Compra online o envía tus libras a Cuba desde <strong> $2.99/lb </strong> </h1>
     <section>
 
 
-    <!--seccion servicio de paqueteria--> 
-   
-<section class="servicio_deentrega"> 
+      <!--seccion servicio de paqueteria-->
+
+      <section class="section_entrega">
 
 
-  <div class="row" style="padding-left:20px;padding-right:20px;width:100%">
+        <div class="row" style="padding-left:20px;padding-right:20px;width:100%">
 
-    <div class="col-12 col-lg-6">
-
-
-    <img src="../Assets/paqueteria.jpg" class="img-fluid" alt="Envia online a Cuba">  </div>
-    <div class="col-12 col-lg-6">
-    
-    <p> Envía tus compras online a nuestro Almacén Cuballama: </p>
-  
-    <p> 1669 NW 79th Ave Doral, FL 33126, USA</p>
-    <button class="boton" href="paginadondesecompletaelproceso.com" role="button">Completa tu envio </button>
-
-    <p> y nosotros nos aseguramos de enviar tus paquetes a tu familia. Puedes elegir Barco o Envío Aéreo, para que llegue más rápido.</p>
- 
-    </div>
-  </section>
-  <section class="section_cards-productos">
-    
-<h2> Ahorra tiempo ▸ Entrega Express en Tienda </h2>
-  <p> Si vives en Miami, gana tiempo. Déjanos tu envío en la tienda y evítate la cola. Cuballama se encarga del resto. </p>  </section>
+          <div class="col-12 col-lg-6">
 
 
+            <img src="../Assets/servicioentrega.png" class="img-fluid" alt="Envia online a Cuba">
+          </div>
+          <div class="col-12 col-lg-6">
 
-<section>
-<!--informacion provedoores de servicios de envio de paquetria con los que la empresa trabaja y realiza los envios a Cuba -->  
+            <p> Envía tus compras online a nuestro Almacén Cuballama: </p>
+
+            <p> <strong> NW 79th Ave Doral, FL 33126, USA </strong> </p>
+            <button class="boton" href="paginadondesecompletaelproceso.com" role="button">Completa tu envio </button>
 
 
-      <div class="row" style="padding-left:20px;padding-right:20px;width:100%">
+            <!--la pagina de destino del boton no ha sido desarrollada y se pone a modo de ejemplo-->
 
-        <div class="col-12 col-lg-3">           
-          <img src="../Assets/aerovarader.png" class="img-fluid" alt="aerovaradero">  
 
-          <h5>ENVÍO AÉREO
-      
+            <p> y nosotros nos aseguramos de enviar tus paquetes a tu familia. Puedes elegir Barco o Envío Aéreo, para
+              que llegue más rápido.</p>
+
+          </div>
+      </section>
+
+      <section class="section_cards-productos">
+
+        <h4> Ahorra tiempo ▸ Entrega Express en Tienda </h4>
+        <p> Si vives en Miami, gana tiempo. Déjanos tu envío en la tienda y evítate la cola. Cuballama se encarga del
+          resto. </p>
+      </section>
+
+
+
+
+      <section>
+        <!--informacion provedoores de servicios de envio de paquetria con los que la empresa trabaja y realiza los envios a Cuba -->
+
+
+        </div>
+        <div class="row" style="margin:15px ">
+
+          <div class="col-12 col-lg-3">
+
+            <img src="../Assets/aerovaradero.png" class="img-fluid img-thumbnail" height="280px" width="250px"
+              alt="aerovaradero">
+
+            <h5>ENVÍO AÉREO</h5>
+            <h6> Desde $2,99/lb</h6>
+
           </div>
 
-            <div class="col-12 col-lg-3">           
-              <img src="../Assets/correodecuba.png" class="img-fluid" alt="correodecuba">  
-    
-              <h5>ENVÍO AÉREO
-              </h5>
-           
-    
-              </div>
+          <div class="col-12 col-lg-3">
+            <img src="../Assets/correosdecuba.png" class="img-fluid img-thumbnail" height="280px" width="250px"
+              alt="correodecuba">
 
-            <div class="col-12 col-lg-3">           
-              <img src="../Assets/cubapacl.png" class="img-fluid" alt="cubapack">  
-    
-              <h5>ENVÍO MARÍTIMO
-
-              </h5>
-              
-    
-              </div>
-
-                <div class="col-12 col-lg-3">           
-                  <img src="../Assets/palco.png" class=" class="img-fluid" alt="palco">  
-        
-                  <h5>ENVÍO MARÍTIMO
-    
-                  </h5>
-                  
-        
-                  </div>
-        </section>
+            <h5>ENVÍO AÉREO
+            </h5>
+            <h6> Desde $3,99/lb</h6>
 
 
-          <section> 
+          </div>
 
-            <!-- video explicativo del servicio-->
-  <div class="col-12 col-lg-6"> 
+          <div class="col-12 col-lg-3">
+            <img src="../Assets/cubapack.png" class="img-fluid img-thumbnail" height="280px" width="250px"
+              alt="cubapack">
 
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I5rSkdZBQwM?controls=0&amp;start=1"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-        </div>
-        
-        <div class="col-12 col-lg-6"> 
-        <p> ¿No sabes cómo hacer tu envío?</p> 
-        <p>  Te guiaremos paso a paso.</p> 
-        </div>
+            <h5>ENVÍO MARÍTIMO
 
-    </section>
+            </h5>
+            <h6> Desde $3,99/lb</h6>
+
+
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <img src="../Assets/palco.png" class="img-fluid img-thumbnail" height="280px" width="250px" alt="palco">
+
+            <h5>ENVÍO MARÍTIMO
+
+            </h5>
+            <h6> Desde $4,99/lb</h6>
+
+
+          </div>
+
+      </section>
+
+      <section class="section_cards-productos">
+
+        <h4> ¿Qué puedes enviar?
+        </h4>
+        <p> Consulta la lista de productos que puedes comprar y enviar a Cuba </p>
+        <button class="boton" href="webgobiernodecubaaduana" role="button"> Consultar listado</button>
+      </section>
+
+
+
+      <section>
+
+        <!-- video explicativo del servicio-->
+
+
+        <div class="row" style="padding-left:20px;padding-right:20px;width:100%">
+          <div class="col-12 col-lg-6">
+
+            <h3> ¿No sabes cómo hacer tu envío?</h3>
+            <p> Te guiaremos paso a paso.</p>
+            <p>Cuballama Envíos es una tienda online de regalos para Cuba. Podrás elegir entre una selección de artículos de varias categorías, siempre con la mejor relación calidad–precio y el costo de envío incluido.</p>
+
+            <h4>¿Cómo puedo comprar en Cuballama Envíos?</h4>
+            <p>¡Es simple! Únicamente debes crear una cuenta en Cuballama, o utilizar tu cuenta de Cuballama si ya tienes una.</p>
+            <h4> ¿Desde qué países puedo comprar en Cuballama Envíos? </h4>
+            <p>Puedes hacer tu compra en nuestra tienda online de regalos para Cuba desde cualquier país del mundo, siempre que tengas acceso a internet.
+
+            </p>
+            <p> Puedes pagar con tarjeta de crédito, débito o usando Paypal. El nombre del titular de la tarjeta debe coincidir con el nombre del remitente del regalo.
+
+            </p>
+
+          </div>
+
+          <div class="col-12 col-lg-6">
+
+
+            <div class="ratio ratio-16x9">
+              <iframe width="100%" src="https://www.youtube-nocookie.com/embed/I5rSkdZBQwM?controls=0&amp;start=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
+
+      </section>
 
 
 
